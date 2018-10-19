@@ -1,0 +1,110 @@
+/*** sectioning elements ***/
+
+body {
+  background-color: #eff0f2;
+}
+
+header {
+  text-align: center;
+  background-color: #ec1d24;
+}
+
+.navbar {
+     background-color: #22262a;
+     font-family: 'Anton', sans-serif;
+     font-size: 25px;
+   }
+
+   .navbar-brand {
+     color: #fff;
+   }
+
+   .navbar-brand a:link,
+   .navbar-brand a:visited {
+     color: #fefefe;
+   }
+
+   .navbar-menu a:link,
+   .navbar-menu a:visited {
+     color: #fff;
+   }
+
+h1 {
+  color: #fefefe;
+  font-family: 'Anton', sans-serif;
+  padding-top: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+@media only screen and (max-width: 500px) {
+  h1{
+    font-size: 50px;
+    line-height: 70px;
+  }
+  h2{
+    font-size: 35px;
+  }
+  .navbar{
+    font-size: 15px;
+  }
+}
+
+h2 {
+  color: #fefefe;
+  font-family: 'Anton', sans-serif;
+  padding-bottom: 15px;
+  margin: 0;
+}
+
+h2.article {
+  font-family: 'Anton', sans-serif;
+  color: #3a444e;
+  padding-top: 20px;
+}
+
+h3.watch{
+  font-family: 'Anton', sans-serif;
+}
+
+h3.table {
+  font-family: 'Anton', sans-serif;
+}
+
+h3.article {
+  font-family: 'Anton', sans-serif;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding-top: 30px;
+}
+
+td.info {
+  padding-left: 30px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+p.intro {
+    font-family: 'Roboto', sans-serif;
+}
+
+p.article_intro {
+  font-family: 'Roboto', sans-serif;
+}
+
+p.article {
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+  padding-left: 20px;
+  padding-right: 20px;
